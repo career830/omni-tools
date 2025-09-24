@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from 'assets/logo-18060-trans.png';
 import { Link } from 'react-router-dom';
 
 const EnglishClassHeader: React.FC = () => {
@@ -42,11 +43,10 @@ const EnglishClassHeader: React.FC = () => {
                             <img
                               width="180"
                               height="60"
-                              src="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png"
+                              src={logo}
                               className="custom-logo"
                               alt="长沙职英坊教育咨询有限公司"
                               decoding="async"
-                              srcSet="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 1x, https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 2x"
                             />
                           </a>
                           <a
@@ -58,11 +58,10 @@ const EnglishClassHeader: React.FC = () => {
                             <img
                               width="180"
                               height="60"
-                              src="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png"
+                              src={logo}
                               className="custom-logo"
                               alt="长沙职英坊教育咨询有限公司"
                               decoding="async"
-                              srcSet="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 1x, https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 2x"
                             />
                           </a>
                         </span>
