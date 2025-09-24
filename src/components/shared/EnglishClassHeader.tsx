@@ -123,6 +123,26 @@ const EnglishClassHeader: React.FC = () => {
                                 </li>
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page">
                                   <a
+                                    href="https://resume.englishclass.cn"
+                                    className="menu-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    简历优化
+                                  </a>
+                                </li>
+                                <li className="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a
+                                    href="https://tools.englishclass.cn"
+                                    className="menu-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    文件工具箱
+                                  </a>
+                                </li>
+                                <li className="menu-item menu-item-type-post_type menu-item-object-page">
+                                  <a
                                     href="https://www.englishclass.cn/about/"
                                     className="menu-link"
                                     target="_blank"

@@ -29,7 +29,7 @@ export default function Home() {
       justifyContent={'center'}
       width={'100%'}
     >
-      <Helmet title={'OmniTools'} />
+      <Helmet title={'职英坊教育咨询-职场资料库-文件处理工具-主页'} />
       <Hero />
       <Box my={3}>
         <UserTypeFilter

@@ -62,7 +62,7 @@ export default function ToolLayout({
       sx={{ backgroundColor: 'background.default' }}
     >
       <Helmet>
-        <title>{`${toolTitle} - OmniTools`}</title>
+        <title>{`职英坊教育咨询-职场资料库-文件处理工具-${toolTitle}`}</title>
       </Helmet>
       <Box width={'85%'}>
         <ToolHeader
