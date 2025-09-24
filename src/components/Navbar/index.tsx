@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link, useNavigate } from 'react-router-dom';
-import logo from 'assets/logo.png';
+import logo from 'assets/logo-18060-trans.png';
 import logoWhite from 'assets/logo-18060-trans.png';
 import {
   Drawer,
