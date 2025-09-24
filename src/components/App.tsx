@@ -1,6 +1,5 @@
 import { BrowserRouter, useRoutes } from 'react-router-dom';
 import routesConfig from '../config/routesConfig';
-import Navbar from './Navbar';
 import { Suspense, useState, useEffect } from 'react';
 import Loading from './Loading';
 import { CssBaseline, Theme, ThemeProvider } from '@mui/material';
@@ -15,6 +14,7 @@ import i18n from '../i18n';
 import { UserTypeFilterProvider } from 'providers/UserTypeFilterProvider';
 import EnglishClassHeader from './shared/EnglishClassHeader';
 import EnglishClassFooter from './shared/EnglishClassFooter';
+import LanguageSelector from './shared/LanguageSelector';
 import './shared/EnglishClassStyles.css';
 
 export type Mode = 'dark' | 'light' | 'system';
@@ -67,13 +67,9 @@ function App() {
                   <EnglishClassHeader />
                   <div id="content" className="site-content">
                     <div className="ast-container">
-                      <Navbar
-                        mode={mode}
-                        onChangeMode={() => {
-                          setMode((prev) => nextMode(prev));
-                          localStorage.setItem('theme', nextMode(mode));
-                        }}
-                      />
+                      <div className="language-selector-container">
+                        <LanguageSelector />
+                      </div>
                       <Suspense fallback={<Loading />}>
                         <AppRoutes />
                       </Suspense>

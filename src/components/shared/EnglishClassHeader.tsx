@@ -44,10 +44,26 @@ const EnglishClassHeader: React.FC = () => {
                               height="151"
                               src="https://www.englishclass.cn/wp-content/uploads/2025/08/口语_logo256-circle-150x151.png"
                               className="custom-logo"
-                              alt=""
+                              alt="长沙职英坊教育咨询有限公司"
                               decoding="async"
                               srcSet="https://www.englishclass.cn/wp-content/uploads/2025/08/口语_logo256-circle.png 1x, https://www.englishclass.cn/wp-content/uploads/2025/08/口语_logo256-circle.png 2x"
                               sizes="(max-width: 150px) 100vw, 150px"
+                            />
+                          </Link>
+                          <Link
+                            to="/"
+                            className="custom-logo-link ast-transparent-mobile-logo"
+                            rel="home"
+                            itemProp="url"
+                          >
+                            <img
+                              width="180"
+                              height="60"
+                              src="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png"
+                              className="custom-logo"
+                              alt="长沙职英坊教育咨询有限公司"
+                              decoding="async"
+                              srcSet="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 1x, https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 2x"
                             />
                           </Link>
                         </span>
@@ -172,6 +188,24 @@ const EnglishClassHeader: React.FC = () => {
                       <span className="site-logo-img">
                         <Link
                           to="/"
+                          className="custom-logo-link transparent-custom-logo"
+                          rel="home"
+                          itemProp="url"
+                          aria-label="长沙职英坊教育咨询有限公司"
+                        >
+                          <img
+                            width="150"
+                            height="151"
+                            src="https://www.englishclass.cn/wp-content/uploads/2025/08/口语_logo256-circle-150x151.png"
+                            className="custom-logo"
+                            alt="长沙职英坊教育咨询有限公司"
+                            decoding="async"
+                            srcSet="https://www.englishclass.cn/wp-content/uploads/2025/08/口语_logo256-circle.png 1x, https://www.englishclass.cn/wp-content/uploads/2025/08/口语_logo256-circle.png 2x"
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                        </Link>
+                        <Link
+                          to="/"
                           className="custom-logo-link ast-transparent-mobile-logo"
                           rel="home"
                           itemProp="url"
@@ -181,7 +215,7 @@ const EnglishClassHeader: React.FC = () => {
                             height="60"
                             src="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png"
                             className="custom-logo"
-                            alt=""
+                            alt="长沙职英坊教育咨询有限公司"
                             decoding="async"
                             srcSet="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 1x, https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 2x"
                           />

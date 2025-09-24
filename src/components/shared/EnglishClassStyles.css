@@ -8,6 +8,19 @@
   z-index: 1000;
 }
 
+/* Language Selector */
+.language-selector-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.language-selector-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .ast-main-header-wrap {
   width: 100%;
 }
@@ -48,6 +61,26 @@
 .custom-logo {
   max-height: 60px;
   width: auto;
+  display: block;
+}
+
+/* Logo visibility control */
+.transparent-custom-logo {
+  display: block;
+}
+
+.ast-transparent-mobile-logo {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .transparent-custom-logo {
+    display: none;
+  }
+  
+  .ast-transparent-mobile-logo {
+    display: block;
+  }
 }
 
 /* Navigation Styles */
@@ -139,6 +172,12 @@
 
 .site-primary-footer-wrap {
   margin-bottom: 30px;
+}
+
+.ast-builder-grid-row-container-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .ast-builder-footer-grid-columns {

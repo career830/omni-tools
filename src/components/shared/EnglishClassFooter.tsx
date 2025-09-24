@@ -25,33 +25,9 @@ const EnglishClassFooter: React.FC = () => {
                   <div className="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
                     <p>快速链接</p>
                     <ul className="wp-block-list">
-                      <li>
-                        <a
-                          href="https://www.englishclass.cn/about/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          关于我们
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.englishclass.cn/contact/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          推广员
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.englishclass.cn/contact/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          人才招聘
-                        </a>
-                      </li>
+                      <li>关于我们</li>
+                      <li>推广员</li>
+                      <li>人才招聘</li>
                     </ul>
                   </div>
                 </section>
@@ -88,24 +64,8 @@ const EnglishClassFooter: React.FC = () => {
                           求职面试资料
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href="https://www.englishclass.cn/courses/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          外贸英语
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.englishclass.cn/courses/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          企业出海
-                        </a>
-                      </li>
+                      <li>外贸英语</li>
+                      <li>企业出海</li>
                     </ul>
                   </div>
                 </section>
