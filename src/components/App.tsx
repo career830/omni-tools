@@ -13,6 +13,9 @@ import ScrollToTopButton from './ScrollToTopButton';
 import { I18nextProvider } from 'react-i18next';
 import i18n from '../i18n';
 import { UserTypeFilterProvider } from 'providers/UserTypeFilterProvider';
+import EnglishClassHeader from './shared/EnglishClassHeader';
+import EnglishClassFooter from './shared/EnglishClassFooter';
+import './shared/EnglishClassStyles.css';
 
 export type Mode = 'dark' | 'light' | 'system';
 
@@ -60,16 +63,24 @@ function App() {
           <CustomSnackBarProvider>
             <UserTypeFilterProvider>
               <BrowserRouter>
-                <Navbar
-                  mode={mode}
-                  onChangeMode={() => {
-                    setMode((prev) => nextMode(prev));
-                    localStorage.setItem('theme', nextMode(mode));
-                  }}
-                />
-                <Suspense fallback={<Loading />}>
-                  <AppRoutes />
-                </Suspense>
+                <div className="site">
+                  <EnglishClassHeader />
+                  <div id="content" className="site-content">
+                    <div className="ast-container">
+                      <Navbar
+                        mode={mode}
+                        onChangeMode={() => {
+                          setMode((prev) => nextMode(prev));
+                          localStorage.setItem('theme', nextMode(mode));
+                        }}
+                      />
+                      <Suspense fallback={<Loading />}>
+                        <AppRoutes />
+                      </Suspense>
+                    </div>
+                  </div>
+                  <EnglishClassFooter />
+                </div>
               </BrowserRouter>
             </UserTypeFilterProvider>
           </CustomSnackBarProvider>
