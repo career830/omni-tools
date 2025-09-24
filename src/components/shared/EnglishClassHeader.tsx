@@ -32,26 +32,25 @@ const EnglishClassHeader: React.FC = () => {
                         itemScope
                       >
                         <span className="site-logo-img">
-                          <Link
-                            to="/"
+                          <a
+                            href="https://www.englishclass.cn/"
                             className="custom-logo-link transparent-custom-logo"
                             rel="home"
                             itemProp="url"
                             aria-label="长沙职英坊教育咨询有限公司"
                           >
                             <img
-                              width="150"
-                              height="151"
-                              src="https://www.englishclass.cn/wp-content/uploads/2025/08/口语_logo256-circle-150x151.png"
+                              width="180"
+                              height="60"
+                              src="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png"
                               className="custom-logo"
                               alt="长沙职英坊教育咨询有限公司"
                               decoding="async"
-                              srcSet="https://www.englishclass.cn/wp-content/uploads/2025/08/口语_logo256-circle.png 1x, https://www.englishclass.cn/wp-content/uploads/2025/08/口语_logo256-circle.png 2x"
-                              sizes="(max-width: 150px) 100vw, 150px"
+                              srcSet="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 1x, https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 2x"
                             />
-                          </Link>
-                          <Link
-                            to="/"
+                          </a>
+                          <a
+                            href="https://www.englishclass.cn/"
                             className="custom-logo-link ast-transparent-mobile-logo"
                             rel="home"
                             itemProp="url"
@@ -65,7 +64,7 @@ const EnglishClassHeader: React.FC = () => {
                               decoding="async"
                               srcSet="https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 1x, https://www.englishclass.cn/wp-content/uploads/2025/08/logo-18060-trans.png 2x"
                             />
-                          </Link>
+                          </a>
                         </span>
                       </div>
                     </div>
@@ -89,9 +88,9 @@ const EnglishClassHeader: React.FC = () => {
                                 className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex submenu-with-border stack-on-mobile"
                               >
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                                  <Link to="/" className="menu-link">
+                                  <a href="https://www.englishclass.cn/" className="menu-link">
                                     主页
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="menu-item menu-item-type-custom menu-item-object-custom">
                                   <a
@@ -282,9 +281,9 @@ const EnglishClassHeader: React.FC = () => {
                           className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex submenu-with-border stack-on-mobile"
                         >
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                            <Link to="/" className="menu-link">
+                            <a href="https://www.englishclass.cn/" className="menu-link">
                               主页
-                            </Link>
+                            </a>
                           </li>
                           <li className="menu-item menu-item-type-custom menu-item-object-custom">
                             <a
